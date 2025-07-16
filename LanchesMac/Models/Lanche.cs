@@ -41,7 +41,7 @@ namespace LanchesMac.Models
         public string ImagemThumbnailURL { get; set; }
 
         [Display(Name = "Preferido?")]
-        public bool IsLacnhePreferido { get; set; }
+        public bool IsLanchePreferido { get; set; }
 
         [Display(Name = "Estoque")]
         public bool EmEstoque {  get; set; }

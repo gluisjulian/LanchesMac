@@ -34,7 +34,7 @@ namespace LanchesMac.Migrations
                     Preco = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
                     ImagemURL = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
                     ImagemThumbnailURL = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    IsLacnhePreferido = table.Column<bool>(type: "bit", nullable: false),
+                    IsLanchePreferido = table.Column<bool>(type: "bit", nullable: false),
                     EmEstoque = table.Column<bool>(type: "bit", nullable: false),
                     CategoriaId = table.Column<int>(type: "int", nullable: false)
                 },
